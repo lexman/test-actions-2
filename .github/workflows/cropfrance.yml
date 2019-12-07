@@ -1,4 +1,4 @@
-name: Crop France
+name: Extract layer from France
 
 on: [push]
 
