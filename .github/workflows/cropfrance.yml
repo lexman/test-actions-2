@@ -8,7 +8,7 @@ jobs:
     runs-on: [ubuntu-18.04]
 
     steps:
-    - uses: pfisterer/openstreetmap-osmosis-docker@mastem
+    - uses: pfisterer/openstreetmap-osmosis-docker@master
     - name: Donload France OSM pbf
       run: curl https://download.openstreetmap.fr/extracts/europe/france-latest.osm.pbf --output france-latest.osm.pb
     - name: Run a multi-line script
