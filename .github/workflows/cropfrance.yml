@@ -12,7 +12,7 @@ jobs:
       uses: byrnedo/docker-alpine-curl@master
       with:
         entrypoint: curl
-        args: https://download.openstreetmap.fr/extracts/europe/france-latest.osm.pbf --output france-latest.osm.pb
+        args: https://download.openstreetmap.fr/extracts/europe/france-latest.osm.pbf --output france-latest.osm.pbf
       
     - uses: pfisterer/openstreetmap-osmosis-docker@master
       name: Run a multi-line script
