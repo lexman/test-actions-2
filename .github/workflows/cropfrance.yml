@@ -18,4 +18,4 @@ jobs:
       name: Run a multi-line script
       with:
         entrypoint: osmosis
-        args: osmosis --read-pbf france-latest.osm.pbf --bounding-box top=49.26 left=1.425 bottom=48.1 right=3.58 --write-pbf planet-idf.osm.pbf
+        args: --read-pbf france-latest.osm.pbf --bounding-box top=49.26 left=1.425 bottom=48.1 right=3.58 --write-pbf planet-idf.osm.pbf
